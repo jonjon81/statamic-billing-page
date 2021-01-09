@@ -1,0 +1,8 @@
+name: 'Jon Atlas'
+super: true
+id: 577cd6dd-a8c4-45e1-8123-2424fe88b4c5
+password_hash: $2y$10$mLRH0yZBEgIZrZhULXrng.Egh8.jEjTyh.nTTC4VqiyKtCn0JSKkm
+preferences:
+  collections:
+    pages:
+      after_save: continue_editing

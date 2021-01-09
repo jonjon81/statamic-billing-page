@@ -1,0 +1,50 @@
+title: 'Header menu 1'
+fields:
+  -
+    handle: header_menu_1
+    field:
+      collapse: accordion
+      sets:
+        text_link:
+          display: 'Text link'
+          fields:
+            -
+              handle: text_link_url
+              field:
+                display: 'text link url'
+                type: link
+                icon: link
+                listable: hidden
+            -
+              handle: text_link_text
+              field:
+                input_type: text
+                antlers: false
+                display: 'text link text'
+                type: text
+                icon: text
+                listable: hidden
+        button_link:
+          display: 'Button link'
+          fields:
+            -
+              handle: button_link_url
+              field:
+                display: 'Button link url'
+                type: link
+                icon: link
+                listable: hidden
+            -
+              handle: button_link_text
+              field:
+                input_type: text
+                antlers: false
+                display: 'Button link text'
+                type: text
+                icon: text
+                listable: hidden
+      display: 'Header menu 1'
+      type: replicator
+      icon: replicator
+      listable: hidden
+      instructions: 'Chose a button or text link'

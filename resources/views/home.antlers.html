@@ -1,0 +1,58 @@
+<!-- Navbar -->
+<div class="navbar">
+    <div class="container">
+        <nav>
+            <ul class="left-nav">
+                {{ header_menu_1 }}
+
+                    {{ if type == "button_link" }}
+                    <li class="button"><a href="{{ button_link_url }}">{{ button_link_text }}</a></li>
+
+                    {{ else }}
+
+                    <li><a href="{{ text_link_url }}">{{ text_link_text }}</a></li>
+
+                    {{ /if }}
+
+                {{ /header_menu_1 }}
+            </ul>
+            <ul class="right-nav">
+                {{ header_menu_2 }}
+
+                    {{ if type == "button_link" }}
+                    <li class="button"><a href="{{ button_link_url }}">{{ button_link_text }}</a></li>
+
+                    {{ else }}
+
+                    <li><a href="{{ text_link_url }}">{{ text_link_text }}</a></li>
+
+                    {{ /if }}
+
+                {{ /header_menu_2 }}
+            </ul>
+        </nav>
+    </div>
+</div>
+<!-- Main -->
+
+<section class="main">
+    <div class="container flex">
+        {{ featured_left_image }}
+            <img src="{{ url }}" alt="{{ alt }}" />
+        {{ /featured_left_image }}
+        <div class="text-form-container">
+            <h1>{{ large_text_heading }}</h1>
+            <form>
+                <input type="email" placeholder="name@email.com" id="email" name="email">
+                <input type="submit" value="Get Your Demo">
+            </form> 
+        </div>
+        {{ featured_right_image }}
+            <img src="{{ url }}" alt="{{ alt }}" />
+        {{ /featured_right_image }}
+    </div>
+</section>
+
+
+
+

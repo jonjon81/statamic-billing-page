@@ -1,0 +1,14 @@
+title: 'featured right image'
+fields:
+  -
+    handle: featured_right_image
+    field:
+      mode: grid
+      container: assets
+      restrict: false
+      allow_uploads: true
+      max_files: 1
+      display: 'Featured right image'
+      type: assets
+      icon: assets
+      listable: hidden
